@@ -1,6 +1,6 @@
 ### Notes
 -----
-This is a proxy server herd that utilizes a floodign algorithm to self-update itself. You can run each server individually,
+This is a proxy server herd that utilizes a flooding algorithm to self-update itself. You can run each server individually,
 or write a script to run them all at once. You can either use telnet or run the client code for an example of client-server
 interaction
 
