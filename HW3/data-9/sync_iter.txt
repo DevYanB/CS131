@@ -1,0 +1,3 @@
+Threads average 7571.45 ns/transition
+Threads average 3315.32 ns/transition
+Threads average 2377.02 ns/transition

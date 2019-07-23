@@ -1,0 +1,118 @@
+Holiday
+Serving on ('127.0.0.1', 11492)
+COMMAND RECEIVED: 
+ AT kiwi.cs.ucla.edu Goloman +34.06893 -118.445127 39733397.994977 1520023934.918964 @ 1559757332.9157233
+
+CONNECTED TO Goloman
+PROPOGATING kiwi.cs.ucla.edu TO Goloman:AT kiwi.cs.ucla.edu Goloman +34.06893 -118.445127 39733397.994977 39733397.994977
+CLOSED CONNECTION WITH Goloman
+
+CONNECTED TO Welsh
+PROPOGATING kiwi.cs.ucla.edu TO Welsh:AT kiwi.cs.ucla.edu Goloman +34.06893 -118.445127 39733397.994977 39733397.994977
+CLOSED CONNECTION WITH Welsh
+
+CONNECTED TO Wilkes
+PROPOGATING kiwi.cs.ucla.edu TO Wilkes:AT kiwi.cs.ucla.edu Goloman +34.06893 -118.445127 39733397.994977 39733397.994977
+CLOSED CONNECTION WITH Wilkes
+
+Closing  Connection...
+
+COMMAND RECEIVED: 
+ AT kiwi.cs.ucla.edu Goloman +34.06893 -118.445127 39733397.994977 39733397.994977 @ 1559757332.9183214
+
+REDUNDANT COMMAND SENT FOR: kiwi.cs.ucla.edu
+
+Closing  Connection...
+
+COMMAND RECEIVED: 
+ AT kiwi.cs.ucla.edu Goloman +34.06893 -118.445127 39733397.994977 39733397.994977 @ 1559757332.9195442
+
+REDUNDANT COMMAND SENT FOR: kiwi.cs.ucla.edu
+
+Closing  Connection...
+
+COMMAND RECEIVED: 
+ WHATSAT kiwi.cs.ucla.edu 10 2
+ @ 1559757344.0487826
+
+QUERYING GOOGLE PLACES API FOR LOCATION(S): (+34.06893,-118.445127) with radius: 10
+RESPONDING TO WHATSAT MESSAGE:
+AT Holiday 39733397.994977 kiwi.cs.ucla.edu +34.06893-118.445127 1559757344.0487826 [
+   {
+      "geometry": {
+         "location": {
+            "lat": 34.0688873,
+            "lng": -118.4450169
+         },
+         "viewport": {
+            "northeast": {
+               "lat": 34.0702312302915,
+               "lng": -118.4436835197085
+            },
+            "southwest": {
+               "lat": 34.0675332697085,
+               "lng": -118.4463814802915
+            }
+         }
+      },
+      "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/geocode-71.png",
+      "id": "ef162ea4f60a0b3933fae75544dba377b996befa",
+      "name": "Westwood Plaza",
+      "place_id": "ChIJ6Re7qYi8woAR22jVhVAye2M",
+      "reference": "ChIJ6Re7qYi8woAR22jVhVAye2M",
+      "scope": "GOOGLE",
+      "types": [
+         "route"
+      ],
+      "vicinity": "Los Angeles"
+   },
+   {
+      "geometry": {
+         "location": {
+            "lat": 34.068921,
+            "lng": -118.4451811
+         },
+         "viewport": {
+            "northeast": {
+               "lat": 34.0828575,
+               "lng": -118.42990995
+            },
+            "southwest": {
+               "lat": 34.0575047,
+               "lng": -118.46313815
+            }
+         }
+      },
+      "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/school-71.png",
+      "id": "4d56f16ad3d8976d49143fa4fdfffbc0a7ce8e39",
+      "name": "University of California, Los Angeles",
+      "photos": [
+         {
+            "height": 2322,
+            "html_attributions": [
+               "<a href=\"https://maps.google.com/maps/contrib/113865536061957533881/photos\">Berthold Bemmerle</a>"
+            ],
+            "photo_reference": "CmRaAAAAG_MwrUpqkv98Jh22_MTlqJT_JWBVHl5Q2rTOeXLJko3JyVopz5YqnwSvS0lq2IEzRAqRpmarRyRwg8bUWcoN2lg1KysUy1VHsZfwbsbrQyaKaHecpkdcA3mTDZNj3egdEhC1-vQ35ZFoGJQzGUwdfnBlGhQK7CHnYQsIeX9Ky5AXVWMuWDCQ2g",
+            "width": 4128
+         }
+      ],
+      "place_id": "ChIJZQ9c8IW8woARN0gTXFiTqSU",
+      "plus_code": {
+         "compound_code": "3H93+HW Los Angeles, California, United States",
+         "global_code": "85633H93+HW"
+      },
+      "rating": 4.5,
+      "reference": "ChIJZQ9c8IW8woARN0gTXFiTqSU",
+      "scope": "GOOGLE",
+      "types": [
+         "university",
+         "point_of_interest",
+         "establishment"
+      ],
+      "user_ratings_total": 1498,
+      "vicinity": "Los Angeles"
+   }
+]
+
+Closing  Connection...
+

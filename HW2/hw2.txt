@@ -1,0 +1,22 @@
+Report for Homework 2
+
+For this project I decided to design make_parser based off of make_matcher, though I didn't do any
+direct calls since I needed to change one line from the helper function in make_matcher (the code did
+not append the current rule being checked to any list, and so needed to be edited to track 
+traversed rules). In that regard, there was duplication, but it still solved my problem.
+
+One of the weaknesses of my approach is, of course, I had to duplicate the helper functions for both, as mentioned
+above. And I also had to have an acceptor for empty hardcoded to take that in particular, which might not be very
+scalable or flexible.A conceptual weakness is with regard to the types of grammars. Specifically, with infinitely
+recurseive grammars, say something like:
+| Item -> [[N A]]
+| A -> [[N Item]]
+This can be accounted for by introducing a form of checker; specifically, for cycle detection. That might require
+a separate function rather than incorporation into the make_matcher helper functions. Also another werid error that
+I believe may happen is with "left-handed" grammars, ie things that have the higher-priority first. For example:
+| Expr -> [[N Expr; N Binop; N Term]]
+In this case, there would be the same problem as above, ie infinite recursion, as there would be attempts to 
+resolve whatever lower level terminal could be assesed, but never actually reach the Term because the Binop would be 
+traversd first and would go down that subtree instead.It could be solved in the same way, but another thing 
+that could be done is to go through lh grammar in reverse, but that gets to syntactical issues, not really a 
+conceptual argument.

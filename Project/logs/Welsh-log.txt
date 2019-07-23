@@ -1,0 +1,11 @@
+Welsh
+Serving on ('127.0.0.1', 11493)
+COMMAND RECEIVED: 
+ AT kiwi.cs.ucla.edu Goloman +34.06893 -118.445127 39733397.994977 39733397.994977 @ 1559757332.917375
+
+CONNECTED TO Holiday
+PROPOGATING kiwi.cs.ucla.edu TO Holiday:AT kiwi.cs.ucla.edu Goloman +34.06893 -118.445127 39733397.994977 39733397.994977
+CLOSED CONNECTION WITH Holiday
+
+Closing  Connection...
+

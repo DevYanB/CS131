@@ -1,0 +1,7 @@
+➜  ~ sh <(curl -sL https://raw.githubusercontent.com/ocaml/opam/master/shell/install.sh)
+## Downloading opam 2.0.3 for macos on x86_64...
+## Downloaded.
+## Where should it be installed ? [/usr/local/bin]
+## opam 2.0.3 installed to /usr/local/bin
+## Run this script again with '--restore ' to revert.
+

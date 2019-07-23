@@ -1,0 +1,13 @@
+Most used resources (besides stack overflow [joke]): 
+- https://caml.inria.fr/pub/docs/manual-ocaml/libref/Pervasives.html
+- http://rigaux.org/language-study/syntax-across-languages-per-language/OCaml.html
+- https://www.ocf.berkeley.edu/~mbh/tutorial/hof.html
+- https://caml.inria.fr/pub/docs/manual-ocaml/libref/List.html#VALfilter
+
+SET API:
+For the first set functions (I guess you could call them an API), I simply read up some basic math principles online and implemented the logic based
+on the OCaml syntax. 
+
+GRAMMER VALIDATOR:
+This was a tricky one! Got a lot of help from searching online and reading book for logic. Eventually got to a sort of BFS solution, in which you store grammar rules and start expression(s) to go through and
+search for all reachable terminals, disregarding any rules where there is no path to them as a natural result of this logic.
