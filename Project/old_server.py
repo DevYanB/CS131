@@ -10,7 +10,7 @@ import datetime
 import socket
 import ssl
 
-API_KEY = "AIzaSyB0bje9I1Bnz-NzFeGr5Aip-6m2Xcx-hDc"
+API_KEY = "whatever_your_key_is"
 
 servers = ['Goloman', 'Hands', 'Holiday', 'Welsh', 'Wilkes']
 serv_to_port = {'Goloman': 11490, 'Hands': 11491, 'Holiday': 11492, 'Welsh': 11493, 'Wilkes': 11494}
